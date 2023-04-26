@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.conteiner-pai{
+  height:400px;
+  width:400px;
+  border: 15px double #ae1172;
+ 
+}
+.conteiner-filho{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#8a2be2 ;
+  width: 100%;
+  height: 100%;
+}
+.bloco-herdeiro{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 10px 20px red inset;
+  width:90%;
+  height: 90%;
+  background:url("https://i0.wp.com/nossaradio104.fm.br/site/wp-content/uploads/2017/03/Flor-Amor-Perfeito-1.jpg?w=750") ;
+  background-size: cover;
+}
+h1{
+  color:#fff700;
+  font-size:40px;
+  font-style: italic;
+  
+  
+}
